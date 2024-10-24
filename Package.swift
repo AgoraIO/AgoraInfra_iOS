@@ -8,13 +8,12 @@ let package = Package(
     platforms: [.iOS(.v9)],
     products: [
         .library(name: "AgoraInfra", targets: ["aosl"]),
-        .library(name: "RtcBasic", targets: []),
     ],
     targets: [
         .binaryTarget(
             name: "aosl",
             url: "https://download.agora.io/swiftpm/AgoraInfra_iOS/0.0.3-test/aosl.xcframework.zip",
-            checksum: "da354bd9d6aba0829d13a17b4f046a92034e52fabfaf58f551ce82b44f51eb6c"
+            checksum: "1280ba6a8d359b003183db29c02dcc7654087ed6b44f9f79369db52246b72123"
         ),
     ]
 )
