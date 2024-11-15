@@ -12,8 +12,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "aosl",
-            url: "https://download.agora.io/swiftpm/AgoraInfra_iOS/0.0.4-test/aosl.xcframework.zip",
-            checksum: "c886bc598495c63d291f83c6abef606a5b3717db3c9a1b703957513a5d5c0453"
+            url: "https://download.agora.io/swiftpm/AgoraInfra_iOS/0.0.17-test/aosl.xcframework.zip",
+            checksum: "a628549610aa1dd316888597a7b559107f251fdc70f120cd74dd969709580644"
         ),
     ]
 )
